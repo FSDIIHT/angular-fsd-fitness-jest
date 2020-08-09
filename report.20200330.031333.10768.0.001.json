@@ -1,0 +1,375 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200330.031333.10768.0.001.json",
+    "dumpEventTime": "2020-03-30T03:13:33Z",
+    "dumpEventTimeStamp": "1585518213884",
+    "processId": 10768,
+    "cwd": "C:\\Users\\abhig\\OneDrive\\Desktop\\24-03-2020\\codesprint-ux-angularSPA\\codesprint-ux-angularSPA-master",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\abhig\\AppData\\Roaming\\npm/node_modules/@angular/cli/bin/ng",
+      "test"
+    ],
+    "nodejsVersion": "v13.5.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "13.5.0",
+      "v8": "7.9.317.25-node.23",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "79",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.1",
+      "openssl": "1.1.1d",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v13.5.0/node-v13.5.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v13.5.0/node-v13.5.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v13.5.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.17763",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i3-4030U CPU @ 1.90GHz",
+        "speed": 1896,
+        "user": 1007062,
+        "nice": 0,
+        "sys": 974140,
+        "idle": 7236609,
+        "irq": 74093
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-4030U CPU @ 1.90GHz",
+        "speed": 1896,
+        "user": 976328,
+        "nice": 0,
+        "sys": 856843,
+        "idle": 7384234,
+        "irq": 5953
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-4030U CPU @ 1.90GHz",
+        "speed": 1896,
+        "user": 1135078,
+        "nice": 0,
+        "sys": 881703,
+        "idle": 7200625,
+        "irq": 6781
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-4030U CPU @ 1.90GHz",
+        "speed": 1896,
+        "user": 1127281,
+        "nice": 0,
+        "sys": 744625,
+        "idle": 7345500,
+        "irq": 5062
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "ac:d1:b8:d5:62:11",
+        "address": "fe80::4864:7d2:6fb1:b00e",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "ac:d1:b8:d5:62:11",
+        "address": "192.168.43.226",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-FRB47MH"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff6c4b519f9",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6c4b55d6c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6c4b54d28",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6c4c4ddfb",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6c5475c2e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6c545d381",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6c53246dc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6c532c72f",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6c5321c53",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6c53203e4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6c53423d4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6c509c9d1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6c58bebcd",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6c58bfa45",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000003af2ee6a2c9",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 257777664,
+    "totalCommittedMemory": 257777664,
+    "usedMemory": 249608152,
+    "availableMemory": 1947810712,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 33040,
+        "used": 33040,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047424,
+        "used": 1047416,
+        "available": 8
+      },
+      "old_space": {
+        "memorySize": 178659328,
+        "committedMemory": 178659328,
+        "capacity": 177941096,
+        "used": 176966552,
+        "available": 974544
+      },
+      "code_space": {
+        "memorySize": 4100096,
+        "committedMemory": 4100096,
+        "capacity": 3860960,
+        "used": 3431136,
+        "available": 429824
+      },
+      "map_space": {
+        "memorySize": 8392704,
+        "committedMemory": 8392704,
+        "capacity": 8382880,
+        "used": 3061600,
+        "available": 5321280
+      },
+      "large_object_space": {
+        "memorySize": 64692224,
+        "committedMemory": 64692224,
+        "capacity": 64524120,
+        "used": 64524120,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 544288,
+        "used": 544288,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047424,
+        "used": 0,
+        "available": 1047424
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 152.656,
+    "kernelCpuSeconds": 13.718,
+    "cpuConsumptionPercent": 5.69189,
+    "maxRss": 681861120,
+    "pageFaults": {
+      "IORequired": 722479,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 5368,
+      "writes": 5
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\abhig\\AppData\\Roaming",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "COLORTERM": "truecolor",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-FRB47MH",
+    "COMSPEC": "C:\\Windows\\system32\\cmd.exe",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EXEPATH": "C:\\Program Files\\Git\\bin",
+    "GOOGLE_DEFAULT_CLIENT_ID": "no",
+    "GOOGLE_DEFAULT_CLIENT_SECRET": "no",
+    "HOME": "C:\\Users\\abhig",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\abhig",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\abhig\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-FRB47MH",
+    "MSYSTEM": "MINGW64",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OS": "Windows_NT",
+    "OneDrive": "C:\\Users\\abhig\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\abhig\\OneDrive",
+    "PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\abhig\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\nodejs;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\Git\\cmd;C:\\Users\\abhig\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts;C:\\Users\\abhig\\AppData\\Local\\Programs\\Python\\Python38-32;C:\\Users\\abhig\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\abhig\\AppData\\Roaming\\npm;C:\\Users\\abhig\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\abhig\\AppData\\Roaming\\npm\\node_modules\\@angular\\cli\\bin",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 69 Stepping 1, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "4501",
+    "PROGRAMFILES": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "C:/Users/abhig/OneDrive/Desktop/24-03-2020/codesprint-ux-angularSPA/codesprint-ux-angularSPA-master",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "SESSIONNAME": "Console",
+    "SHLVL": "2",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\Windows",
+    "SynaProgDir": "Synaptics\\SynTP",
+    "TEMP": "C:\\Users\\abhig\\AppData\\Local\\Temp",
+    "TERM": "cygwin",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.43.2",
+    "TMP": "C:\\Users\\abhig\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-FRB47MH",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-FRB47MH",
+    "USERNAME": "abhi",
+    "USERPROFILE": "C:\\Users\\abhig",
+    "WINDIR": "C:\\Windows",
+    "_": "C:/Program Files/nodejs/node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\profapi.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\MSASN1.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\winmmbase.dll",
+    "C:\\Windows\\System32\\cfgmgr32.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\System32\\powrprof.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\wshbth.dll"
+  ]
+}

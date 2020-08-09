@@ -1,0 +1,10 @@
+/**/node_modules/
+/**/kbd/
+/**/java/
+
+package-lock.json
+/**/.nyc_output/
+yaksha-test-cases.xml
+resultForXml.json
+
+coverage
