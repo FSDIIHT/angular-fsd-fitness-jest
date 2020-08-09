@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "json-server": "json-server --watch data-source/friends.json --port 6565",
-    "jest": "jest --watch"
+    "jest": "jest"
   },
   "private": true,
   "dependencies": {
